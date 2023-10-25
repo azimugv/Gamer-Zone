@@ -95,3 +95,14 @@ background: rgba(11, 2, 35, 0.10);
     
     
 }
+@media screen and (max-width:768px) {
+    nav, .menus ul{
+        flex-direction: column;
+    }
+    nav{
+        height: auto;
+        padding-bottom: 15px;
+    }
+    
+    
+}
