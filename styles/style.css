@@ -149,6 +149,11 @@ background-clip: text;
         height: auto;
         padding-bottom: 15px;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        background-position: bottom left;
+        background-size: contain;
+    }
     
     
 }
@@ -160,6 +165,10 @@ background-clip: text;
         height: auto;
         padding-bottom: 15px;
     }
-    
+    .banner-container{
+        flex-direction: column-reverse;
+        background-position: bottom left;
+        background-size: contain;
+    }
     
 }
