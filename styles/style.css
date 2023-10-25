@@ -73,69 +73,14 @@ background: rgba(11, 2, 35, 0.10);
 } 
 
 
-/* Banner */
-.banner-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50px;
-    background: #FFF;
-    background-image: url("../images/Group\ 14.png"),
-    linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
-    background-repeat: no-repeat;
-    padding: 100px;
-    
-}
-.banner-text{
-}
 
-.banner-mini-title{
-    color: #0B0223;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.banner-title{
-    text-align: center;
-    font-size: 95px;
-    font-weight: 800;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.banner-feature{
+.banner-footer{
     color: #534C64;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: normal;
-    padding: 10px 0px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
 }
-.banner-feature i{
-    height: 24px;
-    width: 24px;
-}
-
-.btn{
-    border: none;
-    padding: 15px 30px;
-    border-radius: 48px;
-    background: #4EC5F7;
-    color: #fff;
-}
-.btn-primary{
-    border: none;
-    padding: 15px 30px;
-    border-radius: 48px;
-    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-}
-
-.banner-image img{
-    width: 400px;
-}
-
 
 
 /* Media Queries */
@@ -149,14 +94,13 @@ background-clip: text;
         height: auto;
         padding-bottom: 15px;
     }
-    .banner-container{
-        flex-direction: column-reverse;
-        background-position: bottom left;
-        background-size: contain;
-    }
-    
-    
+   
+
 }
+
+
+
+
 @media screen and (max-width:768px) {
     nav, .menus ul{
         flex-direction: column;
@@ -164,11 +108,6 @@ background-clip: text;
     nav{
         height: auto;
         padding-bottom: 15px;
-    }
-    .banner-container{
-        flex-direction: column-reverse;
-        background-position: bottom left;
-        background-size: contain;
     }
     
 }
