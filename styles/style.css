@@ -164,7 +164,54 @@ background-clip: text;
     line-height: 45px;
 }
 
+/* Online Games */
 
+.online-games-container{
+        max-width: 1400px;
+        margin: 50px auto;
+       
+        
+}
+.section-tittle{
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+}
+
+.game-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    
+}
+.card img:hover{
+    opacity: 0.6;
+    
+}
+.card{
+    position: relative;
+}
+.play{
+    display: none;
+}
+.card:hover .play {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fd399f;
+    text-align: center;
+    opacity: 0.5;
+}
 /* Media Queries */
 
 
@@ -185,7 +232,9 @@ background-clip: text;
         flex-direction: column;
         background: none;
     }
-    
+    .game-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
     
 }
 
@@ -208,5 +257,8 @@ background-clip: text;
     .banner-container2{
         flex-direction: column;
         background: none;
+    }
+    .game-card-container{
+        grid-template-columns: repeat(2,1fr);
     }
 }
