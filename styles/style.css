@@ -36,7 +36,7 @@ nav{
     font-weight: 700;
     line-height: normal;
 }
-.logo-container h1 span{
+.logo-container h1 span, .play-text h3 span{
     background:linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -84,6 +84,7 @@ background: rgba(11, 2, 35, 0.10);
     linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
     background-repeat: no-repeat;
     padding: 100px;
+    height: 700px;
     
 }
 .banner-text{
@@ -133,7 +134,7 @@ background-clip: text;
 }
 
 .banner-image img{
-    width: 400px;
+    width: 100%;
 }
 
 /* Banner 2 */
@@ -166,11 +167,9 @@ background-clip: text;
 
 /* Online Games */
 
-.online-games-container{
+.online-games-container, .play-container{
         max-width: 1400px;
-        margin: 50px auto;
-       
-        
+        margin: 50px auto;     
 }
 .section-tittle{
     text-align: center;
@@ -212,6 +211,54 @@ background-clip: text;
     text-align: center;
     opacity: 0.5;
 }
+
+/* Play */
+
+
+
+.play-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    align-items: center;
+}
+.play-text{
+    text-align: right;
+    width: 340px;
+    margin-right: 200px;
+}
+.play-text h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-text p{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+}
+.play-img img{
+    position: relative;
+    display: block;
+}
+.play-main-img{
+    width: 634.833px;
+    height: 650px;
+    border-radius: 8px;
+}
+.play-mini-img{
+    width: 318.5px;
+height: 365.083px;
+border-radius: 10px;
+position: absolute;
+top: -200px;
+left: -100px;
+}
+
+
+
+
 /* Media Queries */
 
 
