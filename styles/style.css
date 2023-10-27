@@ -225,7 +225,7 @@ background-clip: text;
 .play-text{
     text-align: right;
     width: 340px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 .play-text h3{
     color: #0B0223;
@@ -243,8 +243,7 @@ font-weight: 400;
     display: block;
 }
 .play-main-img{
-    width: 634.833px;
-    height: 650px;
+    width: 100%;
     border-radius: 8px;
 }
 .play-mini-img{
@@ -263,7 +262,7 @@ left: -100px;
 
 
 @media screen and (max-width:576px) {
-    nav, .menus ul{
+    nav, .menus ul, .play-container{
         flex-direction: column;
     }
     nav{
@@ -282,6 +281,27 @@ left: -100px;
     .game-card-container{
         grid-template-columns: repeat(2,1fr);
     }
+
+ 
+.play-text{
+    margin-right: 0px;
+}
+
+
+.play-img img{
+    position: relative;
+    display: block;
+}
+.play-main-img{
+    width: 100%
+    
+}
+.play-mini-img{
+left: 0px;
+}
+.play-container{
+    padding: 20px;
+}
     
 }
 
@@ -289,7 +309,7 @@ left: -100px;
 
 
 @media screen and (max-width:768px) {
-    nav, .menus ul{
+    nav, .menus ul, .play-container{
         flex-direction: column;
     }
     nav{
@@ -308,4 +328,26 @@ left: -100px;
     .game-card-container{
         grid-template-columns: repeat(2,1fr);
     }
+
+ 
+.play-text{
+    margin-right: 0px;
+}
+
+
+.play-img img{
+    position: relative;
+    display: block;
+}
+.play-main-img{
+    width: 100%
+    
+}
+.play-mini-img{
+left: 0px;
+}
+.play-container{
+    padding: 20px;
+}
+    
 }
